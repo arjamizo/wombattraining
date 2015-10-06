@@ -1,0 +1,32 @@
+This is a simple game. It's small copy of Wombat-CS test (aero.ca). 
+For playing you need 2 joysticks. Now, joystick configuration could be done
+by modification of the source (vars.h). 
+Keyboard is emulation of Wombat keys, that's way it is a little bit strange:
+
+1: 1
+2: 2
+3: 3
+4: 4
+5: q
+6: w
+7: e
+8: r
+9: a
+0: s
+bonus button: 'd', 'f', or 'b'
+left arrow: 'z', 'x'
+right arrow: 'c', 'v'
+exit program: 'ESC'
+
+I suggest small sticks with new keys on old ones.
+
+The goal of the game is to put the yellow cross inside of the blue 
+circle (right joystick) and vertical blue lines between pairs of 
+vertical yellow lines (left joystick). You can switch Autotrack 
+mode on with right joystick trigger. While autotrack is on you shall 
+play one of 3 bonus tests (activate with bonus button). Failure of 
+autotrack is signalized by red rectangle in the top left corner of 
+the screen. While failure you shold deactivate bonus (pressing bonus 
+button), switch autotrack off (right joystick trigger) and wait while 
+the autotrack is repairing. When repaired, switch it on and continue 
+your bonus (with bonus button).

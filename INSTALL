@@ -1,0 +1,11 @@
+Depends on:
+SDL > 1.2.0
+openGL
+freetype
+
+nothing special, just:
+# ./configure
+# make
+# make install
+
+

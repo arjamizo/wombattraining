@@ -1,0 +1,46 @@
+Going to do:
+
+add scenarios (game time, difficult level, etc)
+//add global configuration files (in /share?)
+//fix bug with "rand()"
+//fix bug with "bonusstatus"
+//add joystick calibration screen, config file
+//move configuration to external file
+//move 3dshapes (bonus1) and digit sequences (bonus2) to external file
+add new 3dshapes and digit sequences (now to config files)
+//add debuging, loging system
+//add points counting system, progress bar, etc
+//rewrite events to use "switch" (with some founctions?) instead of "if" tree
+
+wombattraining-0.1.5: (2010-01-07)
+a few small bug fixes,
+improved points counting: prediction + logging
+added scenarios
+
+wombattraining-0.1.4:
+fixed bug with updating position on fast machines (add float position variables)
+added points counting system and progress bar
+save game status
+check for duplicates in bonus1figures
+better joystick implementation (possibility of plugging joysticks during game play)
+
+wombattraining-0.1.3:
+New events.c file (using switch constructions and some functions - prepared for menu window)
+Add font configuration in config file
+Default font changed to arial 20 instead of courier 16
+Main menu and joystick configuration screens
+Joystick selection, configuration files and calibration - realy trashy stuff, but it works - needs improvment in future
+Commented out force small speed function in main task ai.
+
+wombattraining-0.1.2:
+Add configuration files, 3dshapes and digit sequences moved to files (in pkgdata directory and in user directories)
+Some 3dshapes add
+Fixed rand() problem
+Some more cloenups
+
+wombattraining-0.1.1:
+Add logging function (now it's just console output, but it works)
+Some source cleanups
+
+wombattraining-0.1:
+First alpha release - most functions works ok, some bugs
